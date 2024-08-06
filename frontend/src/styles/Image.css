@@ -1,0 +1,17 @@
+.door-image-container {
+    width: 180px;  /* Fixed width */
+    height: 270px; /* Fixed height */
+    overflow: hidden;
+    border-radius: 0.5rem; /* Equivalent to rounded-lg in Tailwind */
+    position: relative;
+  }
+  
+  .door-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
